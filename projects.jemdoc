@@ -1,0 +1,56 @@
+# jemdoc: menu{MENU}{projects.html}
+= Projects
+
+== Internships
+
+=== Qualcomm India Pvt. Ltd., Hyderabad, India (May --- July 2016)
+Mentor -- Mr. Amarnath Vangala
+
+~~~
+{}{img_left}{imgs/qualcomm.jpg}{Qualcomm}{225}{128}{}
+- Implemented a parser in Python for reading the input log files
+- Designed a command sequence in C\+\+ for reading the commands from the log files and simulating a voice call in aDSP test framework on the Hexagon Simulator
+~~~
+
+=== Indian Institute of Remote Sensing Dehradun, India (May --- July 2015)
+/(a subsidiary of Indian Space Research Organist (ISRO), Department of Space, Govt. of India)/
+\n Mentors -- Dr. Sameer Saran & Dr. Shefali Agarwal
+
+~~~
+{}{img_left}{imgs/satellite.jpg}{Himalayan Forest Cover}{225}{130}{}
+- Designed an open source plugin (in Python) for QGIS to run data mining algorithms on multi-band raster datasets
+- The plugin is designed to run classification algorithms like Decision Trees, AdaBoost and Random Forest on geo-spatial satellite data [https://github.com/p-kar/SpatialDM \[GitHub\]] [publications.html \[Publication\]]
+- Implemented algorithms for detecting intervals of gradual increase or decrease in time series data using Persistent Delta Approach ([http://www-users.cs.umn.edu/~sboriah/PDFs/ChamberCGMBLKBSKPK2011.pdf Chamber et al.])
+- The tool (developed in MATLAB) was used to identify intervals of gradual deforestation in the Himalayan foothills
+~~~
+
+== Course Projects
+
+=== Compiler Design and Implementation (Spring 2016)
+/(As a part of Compiler Construction course under Vandana Agarwal)/
+
+- Developed an entire compiler for a dummy programming language having constructs like structures and functions [https://github.com/p-kar/Compiler-Project \[GitHub\]]
+- Implemented various modules like lexical analyzer, parser, semantic analyzer, scope and type checker in C\+\+
+- The compiler finally gave an ASM output file which can be linked and run using any basic ASM tool like gcc
+
+=== Character Recognition (Fall 2015)
+/(As a part of Machine Learning course under Prof. Navneet Goyal)/
+
+- Implemented character recognition in images using Neural Networks [https://github.com/p-kar/charIdent \[GitHub\]]
+
+=== Gesture Recognition (Fall 2015)
+/(As a part of Machine Learning course under Prof. Navneet Goyal)/
+
+- Implemented gesture recognition from web cam by applying 2D SVD on Multivariate Time Series Data [https://github.com/p-kar/gestureRecogntion \[GitHub\]]
+
+=== Mine Exploration Vehicle (Spring 2015)
+/(As a part of Microprocessors & Interfacing course under G. Sai Sesha Chalapathi)/
+
+- Designed a working simulation of a vehicle capable of digging, rotating and omni-directional motion based on Intel 8086 processor, in Proteus
+
+=== Logic Programming in Prolog (Fall 2014)
+/(As a part of Logic in Computer Science course under Prof. S. Balasubramaniam)/
+
+- Codified a section of the US Constitution in Prolog
+- The system could handle multiple queries based on the knowledge base provided
+
