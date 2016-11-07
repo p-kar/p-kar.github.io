@@ -18,7 +18,7 @@
 ~~~
 {}{img_left}{imgs/workload.png}{Workload Prediction}{135}{91}{}
 - My undergraduate thesis project, which is a collaboration between Hewlett-Packard Enterprises (HPE) and BITS Pilani
-- Developed approaches based user behavior modeling for the prediction of future workloads
+- Developed approaches based on user behavior modeling for the prediction of future workloads
 - Analyzed the predictability of multiple resources using the autocorrelation function (ACF) for various time lags
 - Implemented models based on Support Vector Regression (SVR) for prediction of future CPU and memory usage based on historical data
 ~~~
