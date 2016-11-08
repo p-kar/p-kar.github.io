@@ -9,7 +9,7 @@ Mentor -- Mr. Amarnath Vangala
 ~~~
 {}{img_left}{imgs/qualcomm.jpg}{Qualcomm}{225}{128}{}
 - Implemented a parser in Python for reading the input log files
-- Designed a command sequence in C\+\+ for reading the commands from the log files and simulating a voice call in aDSP test framework on the Hexagon Simulator
+- Designed a command sequencer in C\+\+ for reading commands from the log files and simulating a voice call in aDSP test framework on the Hexagon Simulator
 ~~~
 
 === Indian Institute of Remote Sensing Dehradun, India (May --- July 2015)
