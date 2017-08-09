@@ -1,0 +1,37 @@
+# jemdoc: menu{MENU}{work.html}
+= Work Experience
+
+== Internships
+
+=== TEG Analytics, Bangalore, India (Jan -- May 2017)
+Mentor -- Mr. Arvind Nagpal
+
+~~~
+{}{img_left}{imgs/teg.jpg}{TEG Analytics}{225}{135}{}
+- Migrated the Nike team’s MS SQL Server setup to a Spark and HDFS based platform.
+- Implemented the business logics using Spark SQL and columnar storage format (Parquet), resulting in \~10x faster query runtimes and \~70% storage savings.
+- Converted the existing ETL pipeline to the new platform for generating client reports using Tableau dashboards.
+~~~
+
+=== Qualcomm India Pvt. Ltd., Hyderabad, India (May --- July 2016)
+Mentor -- Mr. Amarnath Vangala
+
+~~~
+{}{img_left}{imgs/qualcomm.jpg}{Qualcomm}{225}{128}{}
+- Implemented a parser in Python for reading the input log files
+- Designed a command sequencer in C\+\+ for reading commands from the log files and simulating a voice call on the Hexagon DSP simulator.
+- The system was designed to be dynamic and could handle changes to the ADSP command library seamlessly.
+~~~
+
+=== Indian Institute of Remote Sensing Dehradun, India (May --- July 2015)
+/(a subsidiary of Indian Space Research Organisation (ISRO), Department of Space, Govt. of India)/
+\n Mentors -- Dr. Sameer Saran & Dr. Shefali Agarwal
+
+~~~
+{}{img_left}{imgs/satellite.jpg}{Himalayan Forest Cover}{225}{130}{}
+- Designed an open source plugin (in Python) for QGIS to run data mining algorithms on multi-band raster datasets
+- The plugin was designed to run classification algorithms like Decision Trees, AdaBoost and Random Forest on geo-spatial satellite data [https://github.com/p-kar/SpatialDM \[GitHub\]] [publications.html \[Publication\]]
+- Implemented algorithms for detecting intervals of gradual increase or decrease in time series data using Persistent Delta Approach ([http://www-users.cs.umn.edu/~sboriah/PDFs/ChamberCGMBLKBSKPK2011.pdf Chamber et al.])
+- The tool (developed in MATLAB) was used to identify intervals of gradual deforestation in the Himalayan foothills
+~~~
+

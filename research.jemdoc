@@ -2,7 +2,7 @@
 = Research
 
 == Autonomous Humanoid Robot, AcYut
-=== Mentor -- Prof. B. K. Rout (Aug 2013 --- Present)
+=== Mentor -- Prof. B. K. Rout (Aug 2013 --- May 2016)
 
 ~~~
 {}{img_left}{imgs/acyut.png}{AcYut}{135}{183}{http://acyut.com/}
@@ -13,14 +13,14 @@
 ~~~
 
 == Workload Prediction for Cloud Data Centers
-=== Mentor -- Prof. S. Balasubramanium (Aug 2016 --- Present)
+=== Mentor -- Prof. S. Balasubramanium (Aug 2016 --- Dec 2016)
 
 ~~~
 {}{img_left}{imgs/workload.png}{Workload Prediction}{135}{91}{}
 - Currently pursuing an undergraduate thesis project, which is a collaboration between Hewlett-Packard Enterprises (HPE) and BITS Pilani
 - Developed approaches based on user behavior modeling for the prediction of future workloads
 - Analyzed the predictability of multiple resources using the autocorrelation function (ACF) for various time lags
-- Implemented models based on Support Vector Regression (SVR) for prediction of future CPU and memory usage based on historical data
+- Implemented models based on Support Vector Regression (SVR) for prediction of future CPU and memory usage based on historical data [files/WPRED.pdf \[Thesis Report\]]
 ~~~
 
 == Content Based Image Retrieval for Shekhawati Paintings

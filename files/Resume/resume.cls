@@ -85,7 +85,7 @@
 \newcommand{\phone}[1]{\faPhone\ {#1}}
 % defines one's linkedin
 % usage: \linkedin{<linkedin>}
-\newcommand{\linkedin}[2][]{\faLinkedin\ 
+\newcommand{\linkedin}[2][]{\faLinkedinSquare\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
