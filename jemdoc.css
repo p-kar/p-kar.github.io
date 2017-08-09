@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Inconsolata, serif;
+	font-family: Inconsolata, monospace;
 	padding-bottom: 8px;
 	margin: 0;
 }
@@ -390,5 +390,5 @@ div.desc {
   font-weight: bold;
   width: 150;
   margin: 1px;
-font-family: Inconsolata, serif;
+font-family: Inconsolata, monospace;
 }
