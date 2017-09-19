@@ -1,0 +1,70 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.14)  19 SEP 2017 11:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**resume.cls
+(./resume.cls
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `resume'.
+
+Package: resume 2015/05/25 An elegant Résumé class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+Package: xltxtra 2016/01/21 v0.6 Improvements for the "XeLaTeX" format
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+/usr/local/texlive/2017/texmf-dist/tex/latex/xltxtra/xltxtra.sty:26: 
+ ********************************************
+ * XeTeX is required to compile this document.
+ * Sorry!
+ ********************************************.
+\RequireXeTeX ...********************************}
+                                                  \endgroup \fi 
+l.26 \RequireXeTeX
+                  
+? 
+/usr/local/texlive/2017/texmf-dist/tex/latex/xltxtra/xltxtra.sty:26: Emergency 
+stop.
+\RequireXeTeX ...********************************}
+                                                  \endgroup \fi 
+l.26 \RequireXeTeX
+                  
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 230 strings out of 492995
+ 3104 string characters out of 6132704
+ 54098 words of memory out of 5000000
+ 3862 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,0n,19p,131b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+/usr/local/texlive/2017/texmf-dist/tex/latex/xltxtra/xltxtra.sty:26:  ==> Fatal
+ error occurred, no output PDF file produced!
