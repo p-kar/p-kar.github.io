@@ -2,70 +2,114 @@
 
 \documentclass{resume}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
 \name{Pratyush Kar}
+\vspace*{-\baselineskip}
+\begin{center}
+\large Graduation date: May 2019
+\end{center}
 
 \basicInfo{
-  \homepage[pratyushkar.com]{http://pratyushkar.com/} \textperiodcentered\ 
+%  \homepage[pratyushkar.com]{http://pratyushkar.com/} \textperiodcentered\ 
   \email{pkar@cs.utexas.edu} \textperiodcentered\ 
   \phone{(+1) 512-496-5335} \textperiodcentered\ 
-  \linkedin[pratyushkar]{https://www.linkedin.com/in/pratyushkar/}}
-
-\section{\faBook\ Relevant Courses}
-Neural Networks, Virtualization, Natural Language Processing, Distributed Computing
+  \linkedin[pratyushkar]{https://www.linkedin.com/in/pratyushkar/} \textperiodcentered
+  \github[p-kar]{https://github.com/p-kar/}}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{The University of Texas at Austin}, USA}{2017 -- Present}
+\datedsubsection{\textbf{The University of Texas at Austin}, USA}{Aug, 2017 -- Present}
 \textit{M.S.} in Computer Science \textbf{GPA: 4.0/4.0}
-\datedsubsection{\textbf{Birla Institute of Technology \& Science, Pilani}, India}{2013 -- 2017}
+\datedsubsection{\textbf{Birla Institute of Technology \& Science, Pilani}, India}{July, 2013 -- May, 2017}
 \textit{B.E. (Hons.)} in Computer Science \textbf{CGPA: 9.4/10}
 
 \section{\faBriefcase\ Work Experience}
+
+\datedsubsection{\textbf{Nvidia Inc.}, Santa Clara, California}{May, 2018 -- Aug, 2018}
+\role{Deep Learning Intern}{}
+\begin{itemize}
+	\item Implemented the YOLOv3 object detection pipeline in TensorRT for $\sim$70\% faster inference (code open source on \href{https://github.com/vat-nvidia/deepstream-plugins}{Github})
+	\item Using attention transfer, trained and successfully pruned YOLOv3 architecture by $\sim$40\% with $<$1\% drop in mean average precision
+\end{itemize}
 
 \datedsubsection{\textbf{Qualcomm India Pvt. Ltd.}, Hyderabad, India}{May, 2016 -- July, 2016}
 \role{Software Engineering Intern}{}
 \begin{itemize}
 	\item Developed a parser and command sequencer (in C++ and Python) for running commands present in the log files to simulate a voice call on the Hexagon DSP simulator
-	\item The system was designed to be dynamic and could handle changes to the ADSP command library seamlessly
+%	\item The system was designed to be dynamic and could handle changes to the ADSP command library seamlessly
 \end{itemize}
 
-\datedsubsection{\textbf{TEG Analytics}, Bangalore, India}{Jan, 2017 -- May, 2017}
-\role{Software Developer Intern}{}
-\begin{itemize}
-	\item Migrated the Nike team's MS SQL Server setup to a Spark and HDFS based platform
-	\item Implemented the business logics using Spark SQL and columnar storage format (Parquet), resulting in \textasciitilde10x faster query runtimes and \textasciitilde70\% storage savings
-\end{itemize}
+% \datedsubsection{\textbf{TEG Analytics}, Bangalore, India}{Jan, 2017 -- May, 2017}
+% \role{Software Developer Intern}{}
+% \begin{itemize}
+% 	\item Migrated the Nike team's MS SQL Server setup to a Spark and HDFS based platform
+% 	\item Implemented the business logics using Spark SQL and columnar storage format (Parquet), resulting in \textasciitilde10x faster query runtimes and \textasciitilde70\% storage savings
+% \end{itemize}
 
 \section{\faCodeFork\ Projects}
-\datedsubsection{\textbf{Dynamic Bidding Policy for AWS Spot Instances}}{Nov, 2017 -- Dec, 2017}
+\datedsubsection{\textbf{Style Transfer in Text using WGANs}}{Mar, 2018 -- May, 2018}
+\textit{Advisor: Prof. Ray Mooney} \hfill
+\begin{itemize}
+	\item Used adversarial training to overcome distribution mismatch problem arising due to MLE training of seq2seq models
+	\item Implemented Wasserstein GANs trained with cyclic consistency loss for text style transfer between formal and informal English
+\end{itemize}
+
+\datedsubsection{\textbf{Gossip-based Broadcast for Cluster Membership}}{Apr, 2018 -- May, 2018}
 \textit{Advisor: Prof. Vijay Chidambaram} \hfill
 \begin{itemize}
-	\item Formulated a bidding policy using Savitzky-Golay filter for spot instances to replace on-demand instances in AutoScaling Groups on AWS
-	\item Helped in aggressively optimizing the cost incurred with spot savings by 63\%
+	\item Implemented a rumor mongering broadcast solution for Rapid, a scalable distributed membership service
+	\item Improved network utilization by $\sim$12\% in disseminating failures during complex network failures (tested on $\sim$1000 VMs)
 \end{itemize}
 
-\datedsubsection{\textbf{Workload Characterisation in Cloud Data Centers}}{Aug, 2016 -- Dec, 2016}
-\textit{Advisor: Prof. Sundar B.} \hfill
+\datedsubsection{\textbf{Distributed Key-Value Store with Eventual Consistency}}{Feb, 2018 -- Mar, 2018}
+\textit{Advisor: Prof. Vijay Chidambaram} \hfill
 \begin{itemize}
-  \item Developed approaches based on user behavior modeling for the prediction of future workloads on the Google cluster dataset
-  \item Implemented models based on Support Vector Regression for prediction of future CPU and memory usage
+	\item Implemented a Distributed Key-Value store with monotonic reads and read-your-writes session guarantees in Go. The application was able to respond to $\sim$600 requests/sec
 \end{itemize}
 
-\datedsubsection{\textbf{Autonomous Humanoid Robot: AcYut}}{Oct, 2013 -- May, 2016}
-\textit{Advisor: Prof. B.K. Rout} \hfill
+\datedsubsection{\textbf{Actor-Critic Methods with Selective Transfer for ViZDoom}}{Nov, 2017 -- Dec, 2017}
+\textit{Advisor: Prof. Risto Miikkulainen} \hfill
 \begin{itemize}
-	\item Designed and built the $6^{th}$ iteration of India's first completely autonomous soccer-playing humanoid robot
-	\item Implemented algorithms based on Monte Carlo Localization for efficient localization using field line detection
+	\item Implemented a synchronous variant of the A3C algorithm with an attention network (in PyTorch) to play the first-person shooter game, Doom, with only the video frame input
+	\item Improved the performance of the vanilla model by selectively transferring knowledge from simpler tasks to a complex battle scenario
 \end{itemize}
 
-\datedsubsection{\textbf{Content Based Image Retrieval for Shekhawati Paintings}}{Jan, 2016 -- May, 2016}
-\textit{Advisor: Prof. Sundar B.} \hfill
-\begin{itemize}
-	\item Implemented graph-based image segmentation algorithms for identifying important objects in the paintings
-	\item Designed image classification algorithms using HOG features and SVM for automatic annotation of the input images in OpenCV
-\end{itemize}
+% \datedsubsection{\textbf{Dynamic Bidding Policy for AWS Spot Instances}}{Nov, 2017 -- Dec, 2017}
+% \textit{Advisor: Prof. Vijay Chidambaram} \hfill
+% \begin{itemize}
+% 	\item Formulated a bidding policy using Savitzky-Golay filter for spot instances to replace on-demand instances in AutoScaling Groups on AWS
+% 	\item Helped in aggressively optimizing the cost incurred with spot savings by 63\%
+% \end{itemize}
+
+%\datedsubsection{\textbf{Workload Characterisation in Cloud Data Centers}}{Aug, 2016 -- Dec, 2016}
+%\textit{Advisor: Prof. Sundar B.} \hfill
+%\begin{itemize}
+ % \item Developed approaches based on user behavior modeling for the prediction of future workloads on the Google cluster dataset
+%  \item Implemented models based on Support Vector Regression for prediction of future CPU and memory usage
+%\end{itemize}
+
+% \datedsubsection{\textbf{Autonomous Humanoid Robot: AcYut}}{Oct, 2013 -- May, 2016}
+% \textit{Advisor: Prof. B.K. Rout} \hfill
+% \begin{itemize}
+% 	\item Designed and built the $6^{th}$ version of India's first completely autonomous soccer-playing humanoid robot
+% 	\item Implemented algorithms based on Monte Carlo Localization for efficient localization using field line detection
+% \end{itemize}
+
+% \datedsubsection{\textbf{Content Based Image Retrieval for Shekhawati Paintings}}{Jan, 2016 -- May, 2016}
+% \textit{Advisor: Prof. Sundar B.} \hfill
+% \begin{itemize}
+% 	\item Implemented graph-based image segmentation algorithms for identifying important objects in the paintings
+% 	\item Designed image classification algorithms using HOG features and SVM for automatic annotation of the input images in OpenCV
+% \end{itemize}
 
 %\datedsubsection{\textbf{Hand Gesture Recognition Using Time Series Data}}{Jan, 2015 -- Dec, 2015}
 %\textit{Advisor: Prof. Navneet Goyal} \hfill
@@ -75,8 +119,9 @@ Neural Networks, Virtualization, Natural Language Processing, Distributed Comput
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Languages: C++, Python, Go, Java, \LaTeX
-  \item Frameworks: Git, TensorFlow, PyTorch, Docker, Spark, Hadoop, AWS
+  \item Languages: C++, Python, Go, Java
+  \item Frameworks: PyTorch, Docker, Spark, Hadoop, AWS
+  \item Courses: Neural Networks, NLP, Deep Learning, Distributed Computing, Virtualization
 \end{itemize}
 
 %\section{\faHeartO\ Honors and Awards}
